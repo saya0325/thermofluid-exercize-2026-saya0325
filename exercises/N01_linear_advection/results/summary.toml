@@ -1,0 +1,29 @@
+course_id = "N01"
+
+[centered_euler]
+cfl = 0.5
+dt = 0.0125
+maximum = 1.0
+minimum = 1.0
+overshoot = 0.0
+overshoot_occurred = false
+scheme = "centered-euler"
+steps = 40
+undershoot = 0.0
+undershoot_occurred = false
+
+[grid]
+dx = 0.025
+nx = 81
+
+[upwind]
+cfl = 0.5
+dt = 0.0125
+maximum = 1.0
+minimum = 1.0
+overshoot = 0.0
+overshoot_occurred = false
+scheme = "upwind-euler"
+steps = 40
+undershoot = 0.0
+undershoot_occurred = false
